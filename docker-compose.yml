@@ -1,0 +1,7 @@
+version: '3.8'
+services:
+  my-image: 
+    image: my-image2
+    ports:
+      - 3000:3000
+    restart: always
